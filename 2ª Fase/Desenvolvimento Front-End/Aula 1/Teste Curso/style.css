@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+}
+.titulo_noticia {
+    font-family: cursive;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+}
+.margem {
+    background-color: aqua;
+}
