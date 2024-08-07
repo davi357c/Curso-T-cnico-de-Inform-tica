@@ -66,3 +66,17 @@ for v in carrosVrummVrumm.values():
     # retornando chaves e valores
 for chave, valor in carrosVrummVrumm.items():
     print(f"{chave}: {valor}")
+
+filmesLista = [{"Nome": "Filmes"}]
+
+for v in range(3):
+    filmes = {}
+    nome = input("Nome do filme: ")
+    genero = input("Digite o gênero: ")
+    filmes.update({"Nome": nome})
+    filmes.update({"Gênero": genero})
+    filmesLista.append(filmes)
+    print(filmesLista)
+for v in range (3):
+    print(f'{filmesLista[v]["Nome"]} --> {filmesLista[v]["Gênero"]}')
+    

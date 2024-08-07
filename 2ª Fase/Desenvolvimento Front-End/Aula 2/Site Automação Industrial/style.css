@@ -17,14 +17,17 @@ p {
 li {
     font-size: 20px;
 }
-.imagensRepresentativas {
+.imagemTestandoInternet {
     display: block;
     margin: 30px auto;
+    width: 800px;
+    border-radius: 10px;
 }
 .imagemIndustriaAutonoma {
-    margin-top: -770px;
-    height: 950px;
-    margin-left: 700px;
+    margin-bottom: 10000px;
+    height: 550px;
+    margin-left: 48%;
+    border-radius: 10px;
 }
 .logoSATC {
     width: 205px;
@@ -45,8 +48,11 @@ li {
 }
 .linhaSeparacao {
     width: 75%;
-    height: 3px;
+    height: 0px;
     background-color: #505050;
     border-color: #505050;
-    border-radius: 4px;
+}
+.conteudoProgramatico {
+    text-align: center;
+    margin-right: 50%;
 }
