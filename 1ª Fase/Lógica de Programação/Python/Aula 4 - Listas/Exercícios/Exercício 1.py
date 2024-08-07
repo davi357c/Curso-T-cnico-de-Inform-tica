@@ -21,4 +21,4 @@ for final_grades in studant_and_grade:
     print(f'{counter}- {final_grades}')
     counter+=1 
 
-print(type(studant_and_grade))"""
+print(type(studant_and_grade)) """

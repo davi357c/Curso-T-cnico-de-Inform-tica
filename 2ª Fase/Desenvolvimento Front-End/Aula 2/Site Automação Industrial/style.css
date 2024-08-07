@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+}
+li {
+    font-size: 20px;
+}
+.imagensRepresentativas {
+    display: block;
+    margin: 30px auto;
+}
+.imagemIndustriaAutonoma {
+    margin-top: -770px;
+    height: 950px;
+    margin-left: 700px;
+}
+.logoSATC {
+    width: 205px;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.tituloCursos {
+    margin-top: -85px;
+}
+.banner {
+    background-color: #6396c0;
+}
+.conteudo {
+    margin: 40px;
+}
+.textoObjetivoDoCurso {
+    font-size: 30px;
+}
+.linhaSeparacao {
+    width: 75%;
+    height: 3px;
+    background-color: #505050;
+    border-color: #505050;
+    border-radius: 4px;
+}
