@@ -20,14 +20,16 @@ li {
 .imagemTestandoInternet {
     display: block;
     margin: 30px auto;
-    width: 800px;
+    width: 50%;
     border-radius: 10px;
 }
 .imagemIndustriaAutonoma {
-    margin-bottom: 10000px;
-    height: 550px;
-    margin-left: 48%;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    width: 50%;
     border-radius: 10px;
+    bottom: 670px;
 }
 .logoSATC {
     width: 205px;
@@ -35,10 +37,13 @@ li {
     margin-top: 2%;
 }
 .tituloCursos {
-    margin-top: -85px;
+    position: relative;
+    bottom: 125px;
+
 }
 .banner {
     background-color: #6396c0;
+    height: 165px;
 }
 .conteudo {
     margin: 40px;
