@@ -69,4 +69,4 @@ insert into consulta(codigo, dataConsulta,hora, tipo, codigoPaciente, codigoConv
 
 insert into exame(codigo, descricao, tipo, dataExame, resultado, codigoConsulta) values (1, 'Exame de Sangue', 'Coleta de sangue', '15/08/2024', 'Normal', 1);
 insert into exame(codigo, descricao, tipo, dataExame, resultado, codigoConsulta) values (2, 'Radiografia de Tórax', 'Laboratório', '24/08/2024', 'Melhor', 2);
-insert into exame(codigo, descricao, tipo, dataExame, resultado, codigoConsulta) value (3, 'Ultrassonografia Abdominal', 'Endoscopia', '02/09/2024', 'Anormal', 3);
+insert into exame(codigo, descricao, tipo, dataExame, resultado, codigoConsulta) values (3, 'Ultrassonografia Abdominal', 'Endoscopia', '02/09/2024', 'Anormal', 3);
