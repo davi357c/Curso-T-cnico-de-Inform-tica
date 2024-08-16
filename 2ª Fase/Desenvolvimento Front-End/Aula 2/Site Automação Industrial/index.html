@@ -7,45 +7,108 @@
     <title>SATC: Automação Industrial</title>
 </head>
 <body>
-    <div class="banner">
-    <a href="https://unisatc.com.br/"><img class="logoSATC" src="images\logoSATC.png" alt="Logo da instituição SATC"></a>
-    <h1 class="tituloCursos">Automação Industrial</h1><br>
+    <div class="inline" id="banner">
+        <ul class="inlineBlocks">
+            <li>
+                <a href="https://unisatc.com.br/"><img class="logoSATC" src="images\logoSATC.png" alt="Logo da instituição SATC"></a>
+            </li>
+            <li>
+                <h1 id="tituloCursos" class="inline">Automação Industrial</h1><br>
+            </li>
+            <li>
+                <a id="linkForms" href="pagFormulario/paginaFormulario.html"><button id="botao">Matricule-se</button></a> <!-- Ultilizei somente para centralizar corretamente o segundo <li> no site -->
+            </li>
+        </ul>
     </div>
     <div class="conteudo">
+        <ul class="inlineBlocks">
+            <li>
+                <h2>Detalhes:</h2>
+                <ul id="listaDetalhes">
+                    <li>Modalidade: <b>Presencial</b></li>
+                    <li>Carga horária: <b>64.00h</b></li>
+                    <li>Local: <b>SATC / CRICIUMA</b></li>
+                    <li>Período: <b>17/08/2024 a 19/10/2024</b></li>
+                    <li id="blocoHorarios">08hs as 17hs - Sábados</li>
+                </ul>
+                <br><br>
+            </li>
+            <li>
+                <hr id="linhaSeparacaoVertical">
+            </li>
+            <li>
+                <h2>Investimento</h2>
+                <p id="informacaoInvest"><b>PÚBLICO ALVO</b> - Técnicos, engenheiros e profissionais que interagem com instalações e manutenção de equipamentos e sistemas automatizados na área da eletroeletrônica.</p>
+                <ul class="inlineBlocks">
+                    <li>
+                        <ul><li id="precoBolinha">6x <b id="preco">R$ 196,00</b></li></ul>
+                        <p id="precoAVista">À vista: R$ 1.058,40</p>
+                    </li>
+                    <li>
+                        <img id="metodosPagamento" src="images/metodosPagamento.png" alt="Métodos de Pagamento">
+                    </li>
+                </ul>
+            </li>
+        </ul>
         <h2>Objetivo do curso:</h2>
         <p class="textoObjetivoDoCurso">
-            Capacitar os profissionais que atuam na área de automação industrial envolvidos na especificação de motores elétricos CA e inversores de frequência, soft starter, servo 
-            acionamento e CLP.
+            Capacitar os profissionais que atuam na área de automação industrial envolvidos na especificação de motores elétricos CA e inversores de frequência, soft starter, servo acionamento e CLP.
         </p>
-        <img class="imagemTestandoInternet" src="images/imagemTestandoInternet.jpg" alt="Imagem de cara testando internet"><br>
+        <img id="imagemTestandoInternet" src="images/imagemTestandoInternet.jpg" alt="Imagem de cara testando internet"><br>
         <hr class="linhaSeparacao">
         <h2>Informações adicionais:</h2>
-        <h3 class="conteudoProgramatico">Conteúdo programático</h3>
-        <ul>
-            <li>Chaves de Partida Eletromecânica:</li>
-            <li>Revisão básica (partida direta, partida reversora, partida estrela / triângulo e partida compensadora).</li>
-            <li>Motores Elétricos CA:</li>
-            <li>Funcionamento e conceitos básicos;</li>
-            <li>Características de carga acionada.</li>
-            <li>Chaves de Partida Eletrônica (Inversor De Frequência, Soft Starter e Servoacionamento):</li>
-            <li>Princípio de funcionamento;</li>
-            <li>Tipos de controle;</li>
-            <li>Descrição dos parâmetros;</li>
-            <li>Dimensionamento e ligações típicas;</li>
-            <li>Aula prática.</li>
-            <li>Controladores Lógicos Programáveis - CLP:</li>
-            <li>Introdução à automação industrial;</li>
-            <li>Características construtivas;</li>
-            <li>Definições;</li>
-            <li>Princípio de funcionamento;</li>
-            <li>Tipos de sinais: analógicos e digitais;</li>
-            <li>Terminologia comumente utliizada;</li>
-            <li>Linguagens de programação;</li>
-            <li>Configurações;</li>
-            <li>Programação básica em linguagem LADDER.</li>
-        </ul><br> 
-        <hr class="linhaSeparacao">
-        <img class="imagemIndustriaAutonoma" src="images/imagemIndustriaAutonoma.png" alt="Imagem de uma indutria autonoma">
+        <h3>Conteúdo programático</h3>
+        <div class="inline">
+            <ul class="inlineBlocks">
+                <li>
+                    <ul id="conteudoProgramaticoLista">
+                        <li>Chaves de Partida Eletromecânica:</li>
+                        <li>Revisão básica (partida direta, partida reversora, partida estrela / triângulo e partida compensadora).</li>
+                        <li>Motores Elétricos CA:</li>
+                        <li>Funcionamento e conceitos básicos;</li>
+                        <li>Características de carga acionada.</li>
+                        <li>Chaves de Partida Eletrônica (Inversor De Frequência, Soft Starter e Servoacionamento):</li>
+                        <li>Princípio de funcionamento;</li>
+                        <li>Tipos de controle;</li>
+                        <li>Descrição dos parâmetros;</li>
+                        <li>Dimensionamento e ligações típicas;</li>
+                        <li>Aula prática.</li>
+                        <li>Controladores Lógicos Programáveis - CLP:</li>
+                        <li>Introdução à automação industrial;</li>
+                        <li>Características construtivas;</li>
+                        <li>Definições;</li>
+                        <li>Princípio de funcionamento;</li>
+                        <li>Tipos de sinais: analógicos e digitais;</li>
+                        <li>Terminologia comumente utliizada;</li>
+                        <li>Linguagens de programação;</li>
+                        <li>Configurações;</li>
+                        <li>Programação básica em linguagem LADDER.</li>
+                    </ul>
+                </li>
+                <li>
+                    <img id="imagemIndustriaAutonoma" src="images/imagemIndustriaAutonoma.png" alt="Imagem de uma indutria autonoma">
+                </li>
+            </ul>
+        </div>
+        <hr class="linhaSeparacao2">
+        <h3>Inscrição</h3>
+        <div id="conteudoInscricao">
+            <p>- PRÉ-REQUISITOS - Idade mínima de 16 anos.</p>
+            <p>- Documentos necessários para inscrição: cópia do documento de identidade (RG), CPF e comprovante de residência.</p>
+        </div>
+        <hr class="linhaSeparacao2">
+        <h3>Informações</h3>
+        <div id="info">
+            <ul>
+                <li> O número mínimo de participantes são 10 e máximo 15.</li>
+                <li> A SATC reserva-se o direito de alterar e/ou atualizar as previsões de datas, horários, professor ou cancelar o programa, bem como não realizar o curso caso não apresente o número mínimo de participantes.</li>
+                <li> Este treinamento poderá ser oferecido também in company conforme necessidade da empresa, entre em contato conosco e solicite uma proposta de treinamento.</li>
+            </ul>
+            <p>MAIS INFORMAÇÕES</p>
+            <p>comercial@satc.edu.br</p>
+            <p>TELEFONE: (48) 3431-7677 (WhatsApp)</p>
+        </div>
     </div>
+    <div id="direitosReservados">@ Todos os direitos reservados</div>
 </body>
 </html>
