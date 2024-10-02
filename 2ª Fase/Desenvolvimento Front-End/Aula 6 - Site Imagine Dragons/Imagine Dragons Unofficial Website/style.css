@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: #404040;
+}
+#head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #303030;
+}
+#ImagineDragons {
+    width: 10%;
+    padding: 20px 0;
+}
+#tituloPrincipal {
+    color: #fff;
+}
+#pages {
+    display: flex;
+    justify-content: space-around;
+}
+#pages {
+    background-color: #ff5555;
+    padding: 20px 0;
+}
+.modeloPages {
+    width: 200px;
+}
+#pages a {
+    padding: 10px;
+    border: 2px solid;
+    font-size: 30px;
+    border-color: #333 #444 #555 #333;
+    background-color: #777;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+}
+#conteudo {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 10px;
+}
+#imagemCentral {
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+#fotoAlbum {
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    width: 500px;
+}

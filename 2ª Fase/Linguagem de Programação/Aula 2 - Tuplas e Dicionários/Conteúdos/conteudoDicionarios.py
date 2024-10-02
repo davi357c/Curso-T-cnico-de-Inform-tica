@@ -67,7 +67,7 @@ for v in carrosVrummVrumm.values():
 for chave, valor in carrosVrummVrumm.items():
     print(f"{chave}: {valor}")
 
-filmesLista = [{"Nome": "Filmes"}]
+filmesLista = [{"": "Filmes"}]
 
 for v in range(3):
     filmes = {}
@@ -77,6 +77,9 @@ for v in range(3):
     filmes.update({"Gênero": genero})
     filmesLista.append(filmes)
     print(filmesLista)
-for v in range (3):
-    print(f'{filmesLista[v]["Nome"]} --> {filmesLista[v]["Gênero"]}')
+for v in filmesLista:
+    print()
+    for x, y in v.items():
+        print(f'{x} --> {y}')
+
     

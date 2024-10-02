@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-image: url(images/backgroundIndex.avif);
+}
+#conteudo {
+    margin: 13vh 35vh;
+}
+.inline {
+    display: flex;
+    justify-content: space-between;
+}
+.janela {
+    background-color: #ffdce1;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 0 50px ;
+}
+#logo {
+    width: 10%;
+    height: auto;
+}
+@font-face {
+    font-family: NerkoOne;
+    src: url(fonts/NerkoOne.ttf);
+}  
+#formatLinks {
+    font-size: 50px;
+    font-family: NerkoOne;
+    padding: 50px 30px;
+    align-items: center;
+}
+.links {
+    color: #ff7b8f;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.links:hover{
+    color: #ff5871;
+    font-size: 60px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.imagensRepresentativas {
+    width: 30%;
+    border-radius: 25px;
+    /* border: 1px solid #ffb0b0; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+@font-face {
+    font-family: QwitcherGrypen;
+    src: url(fonts/QwitcherGrypen-Bold.ttf);
+}
+h2 {
+    font-size: 100px;
+    font-family: QwitcherGrypen;
+    text-align: center;
+}
+#divisoria {
+    width: 75%;
+    border-color: black;
+    margin-top: 30px;
+}
+.inline2 {
+    text-align: top;
+    font-size: 20px;
+
+}
+.logosContato {
+    height: 40px;
+}

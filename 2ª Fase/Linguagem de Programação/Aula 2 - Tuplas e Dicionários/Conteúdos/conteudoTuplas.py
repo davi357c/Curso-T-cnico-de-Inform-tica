@@ -33,8 +33,8 @@ print(tuplaReplicada)
 
 
 # min e max
-#valorMinimo = min(minhaTupla) <--- (os dois não vão dar certo, visto que tem diferentes types de variáveis dentro da tupla)
-#valorMaximo = max(minhaTupla) <---
+# valorMinimo = min(minhaTupla) <--- (os dois não vão dar certo, visto que tem diferentes types de variáveis dentro da tupla)
+# valorMaximo = max(minhaTupla) <---
 
 tuplaNumeros = 1, 2, 99, 4, -2
 valorMinimo = min(tuplaNumeros)

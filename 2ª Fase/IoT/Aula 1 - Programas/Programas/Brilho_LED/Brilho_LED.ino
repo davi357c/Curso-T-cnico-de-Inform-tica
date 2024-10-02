@@ -5,7 +5,7 @@ int porta = 11;
 void setup() {
   pinMode(porta, OUTPUT);
   Serial.begin(9600);
-  Serial.println("Digite um valor entre 0 (brilho minimo) e 100 (brilho maximo):");
+  Serial.println("Digite um valor entre 0 (brilho minimo) e 255 (brilho maximo):");
   Serial.println();
 }
 
@@ -14,7 +14,6 @@ void loop() {
     valor = Serial.parseInt();
     Serial.print("Valor lido: ");
     Serial.println(valor);
-    brilho = valor*2.55;
-    analogWrite(porta, brilho);
+    analogWrite(porta, valor);
   }
 }

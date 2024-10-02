@@ -16,7 +16,6 @@ void loop() {
   Serial.print(tensao);
   Serial.println(" V");
   if (tensao > 2.5) {
-
       digitalWrite(pinLed, 1);
   }
   else {

@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+#header, content, footer {
+    width: 100%;
+}
+#header {
+    background-color: red;
+}
+#content {
+    background-color: green;
+}
+#footer {
+    background-color: blue;
+}
